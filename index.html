@@ -26,34 +26,120 @@
                     </ul>
                 </div>
                 <div class="left-column">
-                    <img id="profile_pic" src="images/download.png">
+                    <img id="profile-pic" src="images/download.png">
                     <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
-                    <div class="theme-options-wrapper">
+                    <div id="theme-options-wrapper">
                         <div id="light-mode" class="theme-dot"></div>
                         <div id="blue-mode" class="theme-dot"></div>
                         <div id="green-mode" class="theme-dot"></div>
                         <div id="purple-mode" class="theme-dot"></div>
                     </div>
+                    <p id="settings-note">*Theme settings will be saved <br>for your next visit</p>
                 </div>
                 <div class="right-column">
-                    <p>RC</p>
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <h3>What I Do</h3>
+                            <p>I am a legend</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="s2">
         <div class="main-container">
-            <p>About</p>
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More About Me</h4>
+                    <p>blah blah</p>
+                    <p>blah blah</p>
+                    <hr>
+                    <h4>Top Expertise</h4>
+                    <p>Big time dev <a target="_blank" href="resume.pdf">Download Resume</a></p>
+                    <div id="skills">
+                        <ul>
+                            <li>Django</li>
+                            <li>C#</li>
+                            <li>MongoDb</li>
+                        </ul>
+                        <ul>
+                            <li>Django</li>
+                            <li>C#</li>
+                            <li>MongoDb</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <img id="socials-img" src="images/socials.jpg">
+                    <h3>Connect with me on Linkedin & Github</h3>
+                    <div class="img-links">
+                        <a target="_blank" href="#">
+                            <img src="images/github.png" width="10" height="10">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img src="images/linkedin.png" width="10" height="10">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="s1">
         <div class="main-container">
-            <p>Portfolio</p>
+            <h3 style="text-align: center;">Check out my Projects!</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/download.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">preview my projectash awdodwaoidhwoidh more text blah blah</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/download.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">preview my projectash awdodwaoidhwoidh more text blah blah</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/download.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">preview my projectashah</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
         </div>
     </section>
     <section class="s2">
         <div class="main-container">
-            <p>Contact</p>
+            <h3 style="text-align: center;">Get in touch</h3>
+            <form id="contact-form" action="">
+                <label for="Name">Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label for="Subject">Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label for="Name">Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label for="Message">Message</label>
+                <textarea class="input-field" name="message" cols="30" rows="10"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
         </div>
     </section>
 </body>
