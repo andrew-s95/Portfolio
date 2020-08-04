@@ -181,7 +181,7 @@ h6 { font-size: 16px;}
 }
 
 #blue-mode{
-    background-color: #192734;
+    background-color: #003a63;
 }
 
 #green-mode{
@@ -235,6 +235,7 @@ h6 { font-size: 16px;}
 #skills{
     display: flex;
     justify-content: space-evenly;
+    margin: 5px;
     background-color: var(--previewShadow);
 }
 
