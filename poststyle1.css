@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 1270px;
+    margin: 0 auto;
+    background: url("images/background1.jpeg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+.column{
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.column h3{
+    color: black;
+}
+
+.homepage{
+    width: 385px;
+    height: 225px;
+    align-content: center;
+}
+
+.registration{
+    width: 385px;
+    height: 225px;
+    align-items: center;
+}
+
+.dashboard{
+    width: 385px;
+    height: 225px;
+    align-content: center;
+}
+
+.tech_icons img{
+    width: 40px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.tech{
+    text-align: center;
+    align-content: center;
+}

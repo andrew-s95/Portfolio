@@ -21,12 +21,12 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
-    font-family: Calibri, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 p, li, span, label, input, textarea{
     color: var(--secondaryText);
-    font-family: Cambria, Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -235,7 +235,6 @@ h6 { font-size: 16px;}
 #skills{
     display: flex;
     justify-content: space-evenly;
-    margin: 5px;
     background-color: var(--previewShadow);
 }
 
@@ -246,7 +245,7 @@ h6 { font-size: 16px;}
 }
 
 #socials-img{
-    width: 100%;
+    width: 85%;
 }
 
 .post-wrapper{
@@ -324,6 +323,11 @@ h6 { font-size: 16px;}
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+}
+
+#submit-btn:hover{
+    background-color: cadetblue;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1200px){
